@@ -7,11 +7,11 @@ const Navbar = () => {
         <div>
             <nav class="navbar  ">
   <div class="container-fluid d-flex justify-content-around">
-    <a class="navbar-brand">Job Arena </a>
+    <a class="navbar-brand">Social <span className='text-success'>Arena</span></a>
 
     <form class="d-flex" role="search">
         
-      <input  class=" text-center me-2 search empty" type="search" placeholder='&#xF002; Search for your favourite Jobs' aria-label="Search"/>
+      <input  class=" text-center me-2 search empty" type="search" placeholder='&#xF002; Search for your related posts' aria-label="Search"/>
      
     </form>
     <a className='mt-3 decoration' href>Create an account <span className='text-color' data-bs-toggle='modal' data-bs-target="#myModal">It's free</span></a>
