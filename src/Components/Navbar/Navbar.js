@@ -7,7 +7,7 @@ const Navbar = () => {
         <div>
             <nav class="navbar  ">
   <div class="container-fluid d-flex justify-content-around">
-    <a class="navbar-brand">Social <span className='text-success'>Arena</span></a>
+    <a class="navbar-brand fw-bold">Social <span className='text-success'>Arena</span></a>
 
     <form class="d-flex" role="search">
         

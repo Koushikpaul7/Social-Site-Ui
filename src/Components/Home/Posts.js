@@ -1,12 +1,12 @@
 import React from 'react';
 import './post.css'
 import image1 from '../../Images/cardpic.png'
-import image2 from '../../Images/cardpic.png'
+import image2 from '../../Images/280749211_5004531642989634_4949296336595881805_n.jpg'
 const Posts = () => {
     return (
         <div className='container mt-3 '>
             <div className='row '>
-                <div className='col-md-8 card'>
+                <div className='col-md-8 card shadow'>
                    <img className='img-fluid pic' src={image1} alt="" />
                 <p className='mt-2'>✍️ Article</p>
                <div className='d-flex justify-content-between'>
@@ -33,7 +33,7 @@ const Posts = () => {
                    <p><svg className='icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32zM421.7 220.3L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3z"/></svg></p>
                     </div>
                 </div>
-                <div className='col-md-8 card mt-4'>
+                <div className='col-md-8 card shadow mt-4'>
                    <img className='card-img-top pic' src={image1} alt="" />
                 <p className='mt-2'>🔬️ Education</p>
                <div className='d-flex justify-content-between'>
@@ -54,7 +54,7 @@ const Posts = () => {
                </div>
                 </div>
                 
-                <div className='col-md-8 card mt-4'>
+                <div className='col-md-8 card shadow mt-4'>
                    <img className='card-img-top pic' src={image1} alt="" />
                 <p className='mt-2 fw-bold'>🗓️ Meetup</p>
                <div className='d-flex justify-content-between'>
@@ -67,7 +67,7 @@ const Posts = () => {
                 <svg className='cal-icon mt-1 me-2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"/></svg>
                 <p>Fri, 12 Oct, 2018</p>
                     </div>
-                    <div className='col-md-8'>
+                    <div className='col-md-8 '>
                     <p className='location-text'> <svg className='icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg> Ahmedabad, India</p>
                     </div>
                   </div>
@@ -88,7 +88,7 @@ const Posts = () => {
                 </div>
 
 
-                <div className='col-md-8 card mt-4 mb-5'>
+                <div className='col-md-8 card shadow mt-4 mb-5'>
                 <p className='mt-2 fw-bold'>💼️ Job</p>
                <div className='d-flex justify-content-between'>
                <h4 className='col-md-10'>Software Developer</h4>
